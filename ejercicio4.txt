@@ -1,0 +1,9 @@
+#Nota de examen
+nota=int (input("Ingrese la nota(de 0 a 10):"))
+if nota>=0 and nota<=5:
+    print("Desaprobado")
+elif nota>=6 and nota>=8:
+    print("Aprobado")
+else:
+    print("Excelente")
+    

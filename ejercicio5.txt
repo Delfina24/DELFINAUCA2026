@@ -1,0 +1,17 @@
+#Descuento en compras
+compra=float(input("Ingrese el importe de la compra: "))
+
+if compra>=10000:
+    descuento = (compra*0.10)
+    preciofinal = (compra - descuento)
+    print("El precio final es: ", preciofinal)
+    
+elif compra>=20000:
+    descuento = (compra*0.20)
+    preciofinal = (compra - descuento)
+    print("El precio final es: ", preciofinal)
+    
+elif compra>=50000:
+    descuento = (compra*0.30)
+    preciofinal = (compra - descuento)
+    print ("El precio final es: ", preciofinal)

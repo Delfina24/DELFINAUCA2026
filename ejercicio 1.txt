@@ -1,0 +1,9 @@
+#Numero positivo,negativo o cero
+v1=int (input("Ingrese el valor:"))
+if v1 > 0:
+    print ("El valor es mayor")
+elif v1 < 0:
+    print ("El valor es menor")
+else:
+    print("El valor es cero")
+    

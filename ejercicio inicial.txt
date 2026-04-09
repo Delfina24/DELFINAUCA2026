@@ -1,2 +1,9 @@
-import keyword
-print(keyword.kwlist)
+#Preguntar si es igual,mayor o menor
+V1=int (input("Ingrese el primer valor:"))
+V2=int (input("Ingrese el segundo valor:"))
+if V1==V2: 
+    print("Los valores son iguales")
+elif V1 > V2:
+    print("V1 es mayor a V2")
+else:
+    print("V2 es mayor a V1")

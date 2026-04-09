@@ -1,0 +1,10 @@
+#Clasificacion de edad
+num=int (input("Ingrese la edad:"))
+if num>=0 and num<=12:
+    print("La persona es un niño")
+elif num>=13 and num<=17:
+    print("La persona es un adolescente")
+elif num>=18 and num<=64:
+    print("La persona es un adulto")
+else:
+    print("La persona es un adulto mayor")
