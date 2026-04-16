@@ -1,0 +1,7 @@
+secreto = 7
+intento = 0
+
+while intento != secreto:
+    intento = int(input("Ingresa un numero: "))
+    
+print("¡Correcto!")

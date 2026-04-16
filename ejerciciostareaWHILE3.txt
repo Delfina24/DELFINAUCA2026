@@ -1,0 +1,8 @@
+suma = 0
+cantidad = 0
+
+while suma <=100:
+    numero = int(input("Ingresa un numero: "))
+    suma= suma + numero
+    cantidad = cantidad + 1
+print("Cantidad de numeros ingresados:", cantidad)

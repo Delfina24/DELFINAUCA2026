@@ -1,0 +1,4 @@
+nombres =  ['Ana','Bruno','Carla', 'Diego', 'Elena']
+
+for nombre in nombres:
+    print("Hola,", nombre + "!")

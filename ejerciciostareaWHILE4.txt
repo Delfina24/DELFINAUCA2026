@@ -1,0 +1,6 @@
+numero = int(input("Ingresa un numero mayor a 0: "))
+
+while numero >=0:
+    print(numero)
+    numero = numero - 1
+print("¡Fin!")
